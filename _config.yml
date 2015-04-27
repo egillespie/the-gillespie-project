@@ -20,24 +20,24 @@ theme:
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: true
+  email_address: "erik.gillespie@gmail.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: "egillespie/the-gillespie-project"
-  google_plus:
+  github: "egillespie"
+  google_plus: "+ErikGillespie"
   instagram:
-  linkedin:  # Full URL
+  linkedin: "https://www.linkedin.com/in/eriklgillespie"
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
-  steam:
+  stack_exchange: "http://stackoverflow.com/users/1696044/erik-gillespie"
+  steam: "76561198029980002"
   tumblr:
-  twitter: "twitter"
+  twitter: "eriklgillespie"
   wordpress:
   youtube:
 
