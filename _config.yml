@@ -6,16 +6,16 @@ url: "http://www.gillespieproject.com"
 theme:
   # Meta
   title: The Gillespie Project
-  avatar: avatar.png
+  avatar:
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "From the creative minds of Erik and Chris Gillespie" # used by search engines
 
   # Header and footer text
   header_text: >
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
+  header_text_feature_image: 
   footer_text: >
     Copyright &copy; 2015 Erik Gillespie. Non-commercial re-use with attribution encouraged. All other rights reserved.
 
