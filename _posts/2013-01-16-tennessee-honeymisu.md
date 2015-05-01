@@ -13,7 +13,9 @@ I didn't really solve the original problem, but I felt like I was on to somethin
 
 Those of you who are interested in recreating this: beware! While this dessert is delicious, it is also quite potent. I made it Sunday and chilled it in the fridge overnight so I could share it with coworkers the next day. It was quite the way to kick off a work week!
 
-![Do not operate a motor vehicle while consuming this dessert.](/img/honeymisu.jpg)
+<div class="gala" style="width:640px; height:480px">
+  <img src="/img/honeymisu.jpg" alt="Do not operate a motor vehicle while consuming this dessert."/>
+</div>
 
 ### Ingredients
 
