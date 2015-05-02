@@ -1,0 +1,10 @@
+.social-user-bar {
+  span {
+    display: inline-block;
+    margin-right: 0.2em;
+
+    a {
+      color: $header-link-color;
+    }
+  }
+}

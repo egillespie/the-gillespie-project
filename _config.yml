@@ -15,31 +15,9 @@ theme:
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image: 
+  header_text_feature_image:
   footer_text: >
-    Copyright &copy; 2015 Erik Gillespie. Non-commercial re-use with attribution encouraged. All other rights reserved.
-
-  # Icons
-  rss: true
-  email_address: "erik.gillespie@gmail.com"
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: "egillespie"
-  google_plus: "+ErikGillespie"
-  instagram:
-  linkedin: "https://www.linkedin.com/in/eriklgillespie"
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange: "http://stackoverflow.com/users/1696044/erik-gillespie"
-  steam: "76561198029980002"
-  tumblr:
-  twitter: "eriklgillespie"
-  wordpress:
-  youtube:
+    Copyright &copy; 2015 Erik and Chris Gillespie. Non-commercial re-use with attribution encouraged. All other rights reserved.
 
   # Scripts
   google_analytics: "UA-62275452-1"
@@ -56,6 +34,52 @@ theme:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
+
+social:
+  erik:
+    name: Erik
+    # Icons
+    email_address: erik.gillespie@gmail.com
+    behance:
+    bitbucket:
+    dribbble:
+    facebook:
+    flickr:
+    github: egillespie
+    google_plus: +ErikGillespie
+    instagram:
+    linkedin: https://www.linkedin.com/in/eriklgillespie
+    pinterest:
+    reddit: elgillespie
+    soundcloud:
+    stack_exchange: http://stackoverflow.com/users/1696044/erik-gillespie
+    steam: 76561198029980002
+    tumblr:
+    twitter: eriklgillespie
+    wordpress:
+    youtube:
+  chris:
+    name: Chris
+    # Icons
+    email_address: chris.barott@gmail.com
+    behance:
+    bitbucket:
+    dribbble:
+    facebook:
+    flickr:
+    github:
+    google_plus:
+    instagram:
+    linkedin:
+    pinterest:
+    reddit:
+    soundcloud:
+    stack_exchange:
+    steam:
+    tumblr:
+    twitter: reddragn
+    wordpress:
+    youtube:
 
 # PAGINATION
 paginate: 5

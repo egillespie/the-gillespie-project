@@ -24,8 +24,11 @@
 			</li>
 			{% endif %}
 			{% endfor %}
-			<!-- Social icons from Font Awesome, if enabled -->
-			{% include icons.html %}
+			<li>
+				<a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" title="{{ site.theme.str_rss_follow }}">
+					<i class="fa fa-fw fa-rss"></i>
+				</a>
+			</li>
 		</ul>
 	</nav>
 </header>
