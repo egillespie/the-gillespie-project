@@ -15,20 +15,12 @@ Don't be surprised if you see something in here about our families or personal l
 
 Moving our joy of sharing to the web is probably way overdue, but here we are. Poke around, hopefully you'll find something interesting or inspiring. Or maybe you can share some of your own ideas.  We like hearing from others too!
 
-{% if site.social.erik.gravatar_hash %}
-<div class="about-img">
-  <img src="//gravatar.com/avatar/{{ site.social.erik.gravatar_hash }}?s=100"/>
-</div>
-{% endif %}
+{% include gravatar.html hash=site.social.erik.gravatar_hash %}
 <h4>About Erik {% include icons.html social=site.social.erik %}</h4>
 
 I'm a code mercenary. I run a small consulting business and do contract software development for local software companies. I'm also constantly working on software or learning about new technologies and frameworks when I'm not on the job. I homebrew from time to time, like reading about the latest happenings in science, and like lots of other stereotypical computer nerd types of things like anime, sci-fi, and dinosaurs.
 
-{% if site.social.chris.gravatar_hash %}
-<div class="about-img">
-  <img src="//gravatar.com/avatar/{{ site.social.erik.gravatar_hash }}?s=100"/>
-</div>
-{% endif %}
+{% include gravatar.html hash=site.social.chris.gravatar_hash %}
 <h4>About Chris {% include icons.html social=site.social.chris %}</h4>
 
 Whether it's reading one or creating one, Chris really likes story-telling. This makes her a great dungeon master! She's into drawing and art too and likes combining the drawing and the story-telling.  She admits that some of her other hobbies are somewhat neglected. She plays sports and the upright bass when she gets a free moment. By day, Chris' job doesn't translate well into her hobbies.  Her job is something like product manager or business analyst. She has a software background, so she really likes working closely with developers. She likes working with people in general too, and she strives to be well-rounded and proficient at pretty much anything her job demands of her.
