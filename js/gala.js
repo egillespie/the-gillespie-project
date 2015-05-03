@@ -7,7 +7,7 @@ var gala = (function() {
   var addButtons = function($gala, $images) {
     var height = $gala.height() + 'px';
 
-    $images.css('left', 0); // First transition is ignored w/o this
+    moveImages($images, 0); // First transition is ignored w/o this
     $gala.before(LEFT_BTN).prev().css('line-height', height).click(getOnClickLeft($gala, $images));
     $gala.after(RIGHT_BTN).next().css('line-height', height).click(getOnClickRight($gala, $images));
 
@@ -29,15 +29,19 @@ var gala = (function() {
     }
   };
 
+  var getImageOffset = function($images) {
+    return parseInt($images.first().css('left'), 10);
+  };
+
   var getOnClickLeft = function($gala, $images) {
     return function() {
       var width = $gala.width();
-      var offset = parseInt($images.css('left'), 10);
+      var offset = getImageOffset($images);
       var totalImages = $images.length;
       if (offset % width != 0 || totalImages <= 1 || offset <= -(width * (totalImages-1))) {
         return;
       }
-      $images.css('left', (offset-width)+'px');
+      moveImages($images, offset-width);
       var currentImage = 1-offset/width;
       updateButtonState($gala, currentImage, totalImages);
       updateCaptionText($gala, $images, currentImage);
@@ -47,16 +51,20 @@ var gala = (function() {
   var getOnClickRight = function($gala, $images) {
     return function() {
       var width = $gala.width();
-      var offset = parseInt($images.css('left'), 10);
+      var offset = getImageOffset($images);
       var totalImages = $images.length;
       if (offset % width != 0 || totalImages <= 1 || offset >= 0) {
         return;
       }
-      $images.css('left', (offset+width)+'px');
+      moveImages($images, offset+width);
       var currentImage = -offset/width-1;
       updateButtonState($gala, currentImage, totalImages);
       updateCaptionText($gala, $images, currentImage);
     };
+  };
+
+  var moveImages = function($images, position) {
+    $images.css('left', position+'px');
   };
 
   var updateButtonState = function($gala, currentImage, totalImages) {
