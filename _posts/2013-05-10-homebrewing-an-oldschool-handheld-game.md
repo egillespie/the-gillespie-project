@@ -4,7 +4,7 @@ title: Homebrewing an "Oldschool" Handheld Game
 author: Erik Gillespie
 category: software
 tags: [games]
-permalink: /endeavors/homebrewing-an-oldschool-handheld-game.html
+permalink: /software/homebrewing-an-oldschool-handheld-game.html
 ---
 
 Moore's Law and miniaturization of computers is fascinating.  I can fit a phone or a handheld gaming system in my pocket that has more processing power than the giant beige box that sat on my desk 20 years ago.  I can barely tell the difference between native and interpreted user interfaces and sometimes I wonder if I should wrap a log statement in an "`if (log.isDebugEnabled())`" check or explicitly use a StringBuilder instead of lazily using the + operator to concatenate my Strings.  That two-year timespan is long enough that I barely see such huge differences in computing power day-to-day or even when I renew my phone or upgrade my computer.  But over a span of ten years?  Yes, definitely noticeable.
