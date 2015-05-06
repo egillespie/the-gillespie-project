@@ -3,7 +3,7 @@ layout: post
 title: An Assembly of Assembly
 author: Erik Gillespie
 category: endeavors
-tags: []
+tags: [writing]
 permalink: /endeavors/assembly-of-assembly.html
 ---
 
