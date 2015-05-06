@@ -7,6 +7,11 @@
   font-size: 0;
   white-space: nowrap;
   overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .gala img {
@@ -19,16 +24,16 @@
   transition: left 0.4s ease-out;
   height: auto;
   max-width: 100%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
 }
 
 .gala-nav {
   vertical-align: top;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .gala-disabled {
