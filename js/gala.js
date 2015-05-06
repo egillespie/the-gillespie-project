@@ -8,8 +8,8 @@ var gala = (function() {
     var height = $gala.height() + 'px';
 
     moveImages($images, 0); // First transition is ignored w/o this
-    $gala.before(LEFT_BTN).prev().css('line-height', height).click(getOnClickLeft($gala, $images));
-    $gala.after(RIGHT_BTN).next().css('line-height', height).click(getOnClickRight($gala, $images));
+    $gala.before(LEFT_BTN).prev().css('line-height', height).click(getOnNavLeft($gala, $images));
+    $gala.after(RIGHT_BTN).next().css('line-height', height).click(getOnNavRight($gala, $images));
 
     updateButtonState($gala, 0, $images.length);
   };
@@ -19,6 +19,26 @@ var gala = (function() {
     updateCaptionText($gala, $images, 0);
   };
 
+  var addKeyboardNav = function($gala, $images) {
+    if ($gala.length != 1) {
+      return; // Keyboard navigation only works if there is only one gala
+    }
+
+    $(document).keydown(function(e) {
+      switch (e.which) {
+        case 37: // left
+          (getOnNavLeft($gala, $images))();
+          break;
+        case 39: // right
+          (getOnNavRight($gala, $images))();
+          break;
+        default:
+          return;
+      }
+      e.preventDefault();
+    });
+  };
+
   var create = function(gala) {
     var $gala = $(gala);
     var $images = $gala.children('img');
@@ -26,6 +46,7 @@ var gala = (function() {
     addCaption($gala, $images);
     if ($images.length > 1) {
       addButtons($gala, $images);
+      addKeyboardNav($gala, $images);
     }
   };
 
@@ -33,7 +54,7 @@ var gala = (function() {
     return parseInt($images.first().css('left'), 10);
   };
 
-  var getOnClickLeft = function($gala, $images) {
+  var getOnNavLeft = function($gala, $images) {
     return function() {
       var width = $gala.width();
       var offset = getImageOffset($images);
@@ -48,7 +69,7 @@ var gala = (function() {
     };
   };
 
-  var getOnClickRight = function($gala, $images) {
+  var getOnNavRight = function($gala, $images) {
     return function() {
       var width = $gala.width();
       var offset = getImageOffset($images);
