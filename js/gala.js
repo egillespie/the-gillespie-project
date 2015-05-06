@@ -20,7 +20,7 @@ var gala = (function() {
   };
 
   var addKeyboardNav = function($gala, $images) {
-    if ($gala.length != 1) {
+    if ($('.gala').length != 1) {
       return; // Keyboard navigation only works if there is only one gala
     }
 
