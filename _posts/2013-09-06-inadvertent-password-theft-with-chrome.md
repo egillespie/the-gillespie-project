@@ -4,7 +4,7 @@ title: Inadvertent Password Theft with Chrome
 author: Erik Gillespie
 category: software
 tags: []
-permalink: /software/homebrewing-an-oldschool-handheld-game.html
+permalink: /software/inadvertent-password-theft-with-chrome.html
 ---
 
 I recently discovered a way to steal other peoples' passwords using Chrome.  The discovery was accidental and it took me a long time to put the pieces together.
