@@ -38,11 +38,11 @@ var gala = (function() {
       var width = $gala.width();
       var offset = getImageOffset($images);
       var totalImages = $images.length;
-      if (offset % width != 0 || totalImages <= 1 || offset <= -(width * (totalImages-1))) {
+      if (offset % width != 0 || totalImages <= 1 || offset >= 0) {
         return;
       }
-      moveImages($images, offset-width);
-      var currentImage = 1-offset/width;
+      moveImages($images, offset+width);
+      var currentImage = -offset/width-1;
       updateButtonState($gala, currentImage, totalImages);
       updateCaptionText($gala, $images, currentImage);
     };
@@ -53,11 +53,11 @@ var gala = (function() {
       var width = $gala.width();
       var offset = getImageOffset($images);
       var totalImages = $images.length;
-      if (offset % width != 0 || totalImages <= 1 || offset >= 0) {
+      if (offset % width != 0 || totalImages <= 1 || offset <= -(width * (totalImages-1))) {
         return;
       }
-      moveImages($images, offset+width);
-      var currentImage = -offset/width-1;
+      moveImages($images, offset-width);
+      var currentImage = 1-offset/width;
       updateButtonState($gala, currentImage, totalImages);
       updateCaptionText($gala, $images, currentImage);
     };
@@ -69,15 +69,15 @@ var gala = (function() {
 
   var updateButtonState = function($gala, currentImage, totalImages) {
     if (currentImage <= 0) {
-      $gala.next().addClass('gala-disabled');
-    } else {
-      $gala.next().removeClass('gala-disabled');
-    }
-
-    if (currentImage >= totalImages-1) {
       $gala.prev().addClass('gala-disabled');
     } else {
       $gala.prev().removeClass('gala-disabled');
+    }
+
+    if (currentImage >= totalImages-1) {
+      $gala.next().addClass('gala-disabled');
+    } else {
+      $gala.next().removeClass('gala-disabled');
     }
   };
 
