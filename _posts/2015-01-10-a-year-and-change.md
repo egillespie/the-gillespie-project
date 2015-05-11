@@ -5,7 +5,9 @@ author: Erik Gillespie
 category: family
 tags: [kira]
 permalink: /family/a-year-and-change.html
-excerpt: My how time flies. It's hard to believe that Kira will be two years old next month. She's already so big and capable of doing so many things!<br/>
+excerpt: >
+  My how time flies. It's hard to believe that Kira will be two years old next month.
+  She's already so big and capable of doing so many things!<br/>
 ---
 
 ## Kira
