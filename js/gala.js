@@ -48,6 +48,7 @@ var gala = (function() {
       addKeyboardNav($gala, $images);
     }
 
+    $gala.css('display', 'inline-block');
     resize($gala, $images);
   };
 
@@ -157,5 +158,4 @@ var gala = (function() {
   }
 })();
 
-$(document).ready(gala.initialize);
-$(window).resize(gala.resize);
+$(window).load(gala.initialize).resize(gala.resize);
