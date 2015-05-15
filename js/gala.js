@@ -5,11 +5,10 @@ var gala = (function() {
   var CAPTION = '<figcaption></figcaption>';
 
   var addButtons = function($gala, $images) {
-    var height = $gala.height() + 'px';
-
     moveImages($images, 0); // First transition is ignored w/o this
-    $gala.before(LEFT_BTN).prev().css('line-height', height).click(getOnNavLeft($gala, $images));
-    $gala.after(RIGHT_BTN).next().css('line-height', height).click(getOnNavRight($gala, $images));
+
+    $gala.before(LEFT_BTN).prev().click(getOnNavLeft($gala, $images));
+    $gala.after(RIGHT_BTN).next().click(getOnNavRight($gala, $images));
 
     updateButtonState($gala, 0, $images.length);
   };
@@ -21,7 +20,7 @@ var gala = (function() {
 
   var addKeyboardNav = function($gala, $images) {
     if ($('.gala').length != 1) {
-      return; // Keyboard navigation only works if there is only one gala
+      return; // Keyboard navigation works if there is only one gala
     }
 
     $(document).keydown(function(e) {
@@ -48,6 +47,12 @@ var gala = (function() {
       addButtons($gala, $images);
       addKeyboardNav($gala, $images);
     }
+
+    resize($gala, $images);
+  };
+
+  var getCurrentImage = function($gala) {
+    return $gala.attr('data-index') || 0;
   };
 
   var getImageOffset = function($images) {
@@ -56,36 +61,63 @@ var gala = (function() {
 
   var getOnNavLeft = function($gala, $images) {
     return function() {
-      var width = $gala.width();
+      var width = getRenderWidth($images);
       var offset = getImageOffset($images);
       var totalImages = $images.length;
       if (offset % width != 0 || totalImages <= 1 || offset >= 0) {
         return;
       }
-      moveImages($images, offset+width);
       var currentImage = -offset/width-1;
-      updateButtonState($gala, currentImage, totalImages);
-      updateCaptionText($gala, $images, currentImage);
+      navigate($gala, $images, currentImage);
     };
   };
 
   var getOnNavRight = function($gala, $images) {
     return function() {
-      var width = $gala.width();
+      var width = getRenderWidth($images);
       var offset = getImageOffset($images);
       var totalImages = $images.length;
       if (offset % width != 0 || totalImages <= 1 || offset <= -(width * (totalImages-1))) {
         return;
       }
-      moveImages($images, offset-width);
       var currentImage = 1-offset/width;
-      updateButtonState($gala, currentImage, totalImages);
-      updateCaptionText($gala, $images, currentImage);
+      navigate($gala, $images, currentImage);
     };
   };
 
-  var moveImages = function($images, position) {
+  var getRenderHeight = function($images) {
+    return $images.first().height();
+  };
+
+  var getRenderWidth = function($images) {
+    return $images.first().width();
+  };
+
+  var moveImages = function($images, currentImage) {
+    var position = -(currentImage * getRenderWidth($images));
     $images.css('left', position+'px');
+  };
+
+  var navigate = function($gala, $images, currentImage) {
+    var totalImages = $images.length;
+    moveImages($images, currentImage);
+    saveCurrentImage($gala, currentImage);
+    updateButtonState($gala, currentImage, totalImages);
+    updateCaptionText($gala, $images, currentImage);
+  };
+
+  var resize = function($gala, $images) {
+    $gala.css('max-width', getRenderWidth($images)+'px');
+
+    moveImages($images, getCurrentImage($gala));
+
+    var height = getRenderHeight($images) + 'px';
+    $gala.prev().css('line-height', height);
+    $gala.next().css('line-height', height);
+  };
+
+  var saveCurrentImage = function($gala, currentImage) {
+    $gala.attr('data-index', currentImage);
   };
 
   var updateButtonState = function($gala, currentImage, totalImages) {
@@ -114,8 +146,16 @@ var gala = (function() {
       $('.gala').each(function(index, gala) {
         create(gala);
       });
+    },
+    resize: function() {
+      $('.gala').each(function(index, gala) {
+        var $gala = $(gala);
+        var $images = $gala.children('img');
+        resize($gala, $images);
+      });
     }
   }
 })();
 
 $(document).ready(gala.initialize);
+$(window).resize(gala.resize);
