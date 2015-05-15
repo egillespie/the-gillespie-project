@@ -24,7 +24,7 @@ This project was a lot of work but I had a blast creating it!  There were some 
 
 If you're very curious then you can [check out the code](https://github.com/egillespie/xorlix-gba) and the compiled ROM for the game on GitHub.  If you're only mildly curious, you can check out this animated GIF that I created of the game being played:
 
-<div class="gala" style="width:240px; height:160px">
+<div class="gala">
   <img src="/img/xorlix.gif" alt="Xorlix in Action!"/>
 </div>
 

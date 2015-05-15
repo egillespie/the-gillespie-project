@@ -15,7 +15,7 @@ After driving around the parking lot of a local grocer for a while, she decided 
 
 Over the Fourth of July weekend we hopped on a train to Chicago with my little sis and spent most of our time walking around downtown and Millenium Park.  The train ride, all of the people, the cars, being outside all of the time, the swimming pool in the hotel, the shopping (Legos!)... Kira loved it all.  The only thing she didn't like was sitting around in a museum impatiently while we tried to learn about the most complete set of T. Rex fossils and Native American history and culture.  So we bailed on the museum shortly after getting in but we made the best of our time while we were inside.
 
-<div class="gala" style="height:240px; width:320px">
+<div class="gala">
   <img src="/img/wall-of-lego.jpg" alt="Wall of Lego"/>
   <img src="/img/a-t-rex-named-sue.jpg" alt="A T.Rex Named Sue"/>
 </div>
@@ -26,7 +26,7 @@ Kira has two teeth poking through right now and we have started introducing her 
 
 It's crazy to think that most of these "firsts" have happened before she was five months old.  Some of them seem a little advanced for her age but our friend who delivered Kira has said since before she was born that she would be an overachiever.  Very true so far.  Kira continues to be off the charts in height and weight and nearly so in head size.  At her four-month doctor visit for example, this "little" girl was 27" long and weighed 20 pounds and 4 ounces!
 
-<div class="gala" style="height:320px; width:240px">
+<div class="gala">
   <img src="/img/kira-learns-to-drive.jpg" alt="Kira Learns to Drive"/>
   <img src="/img/kira-no-like-cherry.jpg" alt="Kira No Like Cherry!"/>
   <img src="/img/red-white-blue-family.jpg" alt="Red, White, and Blue Family"/>

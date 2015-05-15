@@ -13,7 +13,7 @@ I went to a local liquor store and picked out a mid-shelf bottle of tequila that
 
 The result was not what I was expecting.  Instead of the tequila taking on a jalapeño taste, it instead took on the spicy aftertaste of the peppers.  There was very little alcohol aftertaste any more.  Instead, I got fiery throat destruction (the skeletons on the bottle of Espolón suddenly seemed appropriate).  This ended up working out perfectly for making Bloody Marias.  The leftovers were also amusing to serve up as shots to adventurous friends!
 
-<div class="gala" style="width:584px; height:438px">
+<div class="gala">
   <img src="/img/spicy_tequila.jpg" alt="¡Ay, caramba!"/>
 </div>
 

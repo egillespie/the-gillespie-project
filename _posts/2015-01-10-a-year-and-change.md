@@ -20,7 +20,7 @@ I think a big motivator for speaking is her desire to sing. She knows a LOT of s
 
 Kira has learned so much in the past year that I couldn't possibly list it all out. Her personality is endless, she's funny, and she is extraordinarily well-behaved. Of course there is the occasional tantrum but when they happen they are usually indicative of her being tired or hungry more than anything else.
 
-<div class="gala" style="width:225px; height:300px">
+<div class="gala">
   <img src="/img/kira-2014-01.jpg" alt="Christmas ain't over yet!"/>
   <img src="/img/kira-2014-02.jpg" alt="Happy First Birthday!"/>
   <img src="/img/kira-2014-03.jpg" alt="Blue markers don't taste like blueberries..."/>
@@ -41,7 +41,7 @@ I'm truly proud of this tiny person and it's unbelievable how much joy she brin
 
 Last year Chris was an all-star at [work](http://www.vertafore.com). With a team of six developers and QA she lead the rewrite of the [ProducerEDGE](https://www.sircon.com/produceredge/) product. In six months. That's the second new product launch our office has had within as many years. Now she is the business analyst for three teams and is the interim web developer for [www.sircon.com](https://www.sircon.com).
 
-<div class="gala" style="width:225px; height:300px">
+<div class="gala">
   <img src="/img/morgana-chris-gencon-2014.jpg" alt="Chris cosplaying as Morgana from League of Legends"/>
 </div>
 
@@ -53,7 +53,7 @@ Last year I switched to part-time employee at Vertafore and am still working clo
 
 The rest of my work week in the second half of 2014 was dedicated to technical writing on my [company blog](http://technicalrex.com) (which is sometimes backed by [small coding projects](http://pegger.technicalrex.com)) and scoping out the [startup scene](http://startuplansing.org) right here in Lansing, MI. I had a #1 [article](http://technicalrex.com/2014/07/14/30-days-of-answers-on-stack-overflow/) on the [Programming sub-Reddit](http://www.reddit.com/r/programming/comments/2c59xe/what_i_learned_from_answering_questions_for_30/) and have received some good feedback from fairly well-known developers about some of my other material too.
 
-<div class="gala" style="width:225px; height:300px">
+<div class="gala">
   <img src="/img/erik-derping.jpg" alt="This is what wrapping 30+ presents in one go does to me."/>
 </div>
 

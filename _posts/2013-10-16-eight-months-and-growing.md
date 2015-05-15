@@ -9,7 +9,7 @@ permalink: /family/eight-months-and-growing.html
 
 Kira has hit the eight month mark and is picking up all sorts of new tricks.  She was crawling around at full speed by seven months and it only took a week or two beyond that before she started pulling herself up to stand.  She has started cruising along coffee tables, couches, and walls.  She has also been trying really hard to say any word that she can piece together with just "ba" and "da" syllables (there aren't many, but she comes really close with "birthday").
 
-<div class="gala" style="width:400px; height:300px">
+<div class="gala">
   <img src="/img/walking-with-assistance.jpg" alt="Walking With Assistance"/>
   <img src="/img/front-yard-swinging.jpg" alt="Swinging in the Front Yard"/>
 </div>
@@ -20,7 +20,7 @@ Our little girl has also been eating a wider variety of food too.  There are so
 
 In August we took Kira to her first convention.  Not only that, it was my personal favorite convention: [GenCon](http://www.gencon.com).  A friend of ours made costumes for Chris and Kira so they both got bonus participation points.  And although Kira is quite the social girl, we did discover that being around hundreds of people at once is just a little overwhelming for her right now.  We did take advantage of the Sitters to the Rescue room though so Chris and I did get some time to explore the con by ourselves too.  All in all, we walked away with seven new games and some priceless pictures and moments with our baby girl.
 
-<div class="gala" style="height:400px; width:300px">
+<div class="gala">
   <img src="/img/loves-helping-with-chores.jpg" alt="Loves Helping with Chores!"/>
   <img src="/img/warm-wedding.jpg" alt="A Warm Wedding"/>
   <img src="/img/first-gencon.jpg" alt="Ahri and Baby Lulu"/>

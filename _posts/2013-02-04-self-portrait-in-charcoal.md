@@ -17,7 +17,7 @@ Our first art class was titled "Basic Drawing" and focused on a variety of drawi
 
 My first couple of drawings were pretty bad, but one that I ended up being particularly happy with was my self portrait.  The technique we were focusing on here was drawing upside down.  The professor took our pictures and had them developed in gray scale.  I then flipped the picture upside down and did my best.  The idea of flipping an image upside down when drawing it is to effectively break free of your left brain's desire to simplify features into shapes.  By breaking free of your left brain's desires, you can capture a lot more detail and draw an image in much better proportions.
 
-<div class="gala" style="width:435px; height:584px">
+<div class="gala">
   <img src="/img/erik_self_portrait.jpg" alt="I'm never this emo!"/>
 </div>
 

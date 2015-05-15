@@ -17,7 +17,7 @@ The results were profound.  Obviously the crust had to be made first and it was
 
 Before I dive into the recipe (which is really, really easy by the way), I have to give a shout out to one of the variations I tried at a later time.  Instead of using Fruity Pebbles I used Cinnamon Toast Crunch.  I used plain vanilla ice cream filling and then drizzled caramel over the top before refreezing.  Overall I think this tasted way better than the Fruity Pebble and birthday cake ice cream combo.  Hopefully what you take from this is that you should explore some of your own ideas of which cereals and ice creams go well together.
 
-<div class="gala" style="width:584px; height:514px">
+<div class="gala">
   <img src="/img/cereal_crust.jpg" alt="Cereal + Ice Cream = Pie?"/>
 </div>
 

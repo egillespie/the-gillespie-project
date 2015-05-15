@@ -19,7 +19,7 @@ We were discharged from the hospital two days after Kira was born.  Since then 
 
 For those who are interested, I've got some photos too.  Warning, she's totally adorable!  I think even if I weren't totally biased I would find this to be true.
 
-<div class="gala" style="width:240px; height:320px">
+<div class="gala">
   <img src="/img/kiraswaddled.jpg" alt="Bundled Up at the Hospital"/>
   <img src="/img/kiramonkeyfeet.jpg" alt="Monkey Feet!"/>
   <img src="/img/kirawth.jpg" alt="Kira is a Long Baby"/>

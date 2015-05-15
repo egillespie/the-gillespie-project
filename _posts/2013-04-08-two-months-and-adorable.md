@@ -13,7 +13,7 @@ It has also been a while since I have posted about Kira so this week she is the 
 
 Kira has always had a pretty good temperament, but this past week in particular she has been especially happy.  If you don't believe it, check out the last three pictures in the slideshow below.  When she's happy, Mom and Dad are happy.  I think overall we've been getting better sleep and getting a little more done in, around, and away from the house.  I can't wait to start taking her on walks to the park nearby, maybe even going on jogs with her.  Chris and I were talking about trying to do a camping trip with her later this summer or fall too so we'll see how that goes.
 
-<div class="gala" style="width:306px; height:408px">
+<div class="gala">
   <img src="/img/bigeyedunicorndragonbeanie.jpg" alt="My what big eyes it has!"/>
   <img src="/img/deepinthoughtandsleep.jpg" alt="Deep in Thought and Sleep"/>
   <img src="/img/easterbunny.jpg" alt="Meeting the Easter Bunny"/>

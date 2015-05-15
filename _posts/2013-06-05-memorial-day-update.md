@@ -17,7 +17,7 @@ What this regularity gives us is the ability to coordinate our free time.  I've
 
 We also planned a Memorial Day LAN party over the three day weekend.  We had a great time with friends evening though we both still had our hands full for a lot of the time but it was fun to play a few games, sit around a fire, and eat a lot of junk food.  Chris' sister spent the weekend with us too and spent a lot of time with her new niece.  She did great with Kira, she wasn't shy or unsure of what to do with the little girl at all.
 
-<div class="gala" style="width:304px; height:408px">
+<div class="gala">
   <img src="/img/she-is-still-a-big-baby.jpg" alt="She is Still a Big Baby"/>
   <img src="/img/big-but-happy.jpg" alt="Big but Happy"/>
   <img src="/img/a-lesson-in-gaming.jpg" alt="A Lesson in Gaming"/>
