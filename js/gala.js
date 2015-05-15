@@ -112,9 +112,11 @@ var gala = (function() {
 
     moveImages($images, getCurrentImage($gala));
 
-    var height = getRenderHeight($images) + 'px';
-    $gala.prev().css('line-height', height);
-    $gala.next().css('line-height', height);
+    if ($images.length > 1) {
+      var height = getRenderHeight($images) + 'px';
+      $gala.prev().css('line-height', height);
+      $gala.next().css('line-height', height);
+    }
   };
 
   var saveCurrentImage = function($gala, currentImage) {
