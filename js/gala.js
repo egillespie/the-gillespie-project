@@ -79,7 +79,7 @@ var gala = (function() {
       var currentImage = getCurrentImage($gala) + 1;
       var totalImages = $images.length;
       var offset = getImageOffset($images);
-      if (totalImages <= 1 || currentImage > totalImages || offset % width != 0) {
+      if (totalImages <= 1 || currentImage >= totalImages || offset % width != 0) {
         return;
       }
       navigate($gala, $images, currentImage);
