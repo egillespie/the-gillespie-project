@@ -53,7 +53,7 @@ var gala = (function() {
   };
 
   var getCurrentImage = function($gala) {
-    return $gala.attr('data-index') || 0;
+    return parseInt($gala.attr('data-index'), 10) || 0;
   };
 
   var getImageOffset = function($images) {
@@ -63,12 +63,12 @@ var gala = (function() {
   var getOnNavLeft = function($gala, $images) {
     return function() {
       var width = getRenderWidth($images);
-      var offset = getImageOffset($images);
+      var currentImage = getCurrentImage($gala) - 1;
       var totalImages = $images.length;
-      if (offset % width != 0 || totalImages <= 1 || offset >= 0) {
+      var offset = getImageOffset($images);
+      if (totalImages <= 1 || currentImage < 0 || offset % width != 0) {
         return;
       }
-      var currentImage = -offset/width-1;
       navigate($gala, $images, currentImage);
     };
   };
@@ -76,12 +76,12 @@ var gala = (function() {
   var getOnNavRight = function($gala, $images) {
     return function() {
       var width = getRenderWidth($images);
-      var offset = getImageOffset($images);
+      var currentImage = getCurrentImage($gala) + 1;
       var totalImages = $images.length;
-      if (offset % width != 0 || totalImages <= 1 || offset <= -(width * (totalImages-1))) {
+      var offset = getImageOffset($images);
+      if (totalImages <= 1 || currentImage > totalImages || offset % width != 0) {
         return;
       }
-      var currentImage = 1-offset/width;
       navigate($gala, $images, currentImage);
     };
   };
@@ -100,6 +100,7 @@ var gala = (function() {
   };
 
   var navigate = function($gala, $images, currentImage) {
+    console.log(currentImage);
     var totalImages = $images.length;
     moveImages($images, currentImage);
     saveCurrentImage($gala, currentImage);
