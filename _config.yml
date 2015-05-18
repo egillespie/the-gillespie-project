@@ -7,13 +7,14 @@ theme:
   # Meta
   title: The Gillespie Project
   logo:
-  description: "The personal blog of Erik and Chris Gillespie" # used by search engines
+  # used by search engines
+  description: The personal blog of Erik and Chris Gillespie
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>Welcome to the online journal of Erik and Chris Gillespie!</p>
 
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>Here you'll find family updates and fun projects that are definitely safe to try at home.</p>
   header_text_feature_image:
   footer_text: >
     Copyright &copy; 2015 Erik and Chris Gillespie. Non-commercial re-use with attribution encouraged. All other rights reserved.
