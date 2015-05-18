@@ -3,7 +3,6 @@ layout: page
 title: About
 long-title: About the Gillespies
 permalink: /about/
-feature-img: "/img/sample_feature_img_2.png"
 ---
 
 I created this blog to act as a creative outlet for me and my wife as well as a peek into our personal and professional lives.
