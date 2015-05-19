@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="home">
-  {% if site.theme.header_text %}
+  {% if site.theme.header_text or site.theme.header_text_feature_image %}
   <div class="call-out"
-  style="background-image: url('{{ site.baseurl }}/img/{{ site.theme.header_text_feature_image }}')">
+  style="height: 325px; background-image: url('/img/{{ site.theme.header_text_feature_image }}')">
     {{ site.theme.header_text }}
   </div>
   {% endif %}

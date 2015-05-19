@@ -11,10 +11,8 @@ theme:
   description: The personal blog of Erik and Chris Gillespie
 
   # Header and footer text
-  header_text: >
-     <h4>Welcome to the online journal of Erik and Chris Gillespie!</h4>
-     <p>Here you'll find family updates and fun projects that are definitely safe to try at home.</p>
-  header_text_feature_image:
+  header_text:
+  header_text_feature_image: wedding_jump.png
   footer_text: >
     Copyright &copy; 2015 Erik and Chris Gillespie. Non-commercial re-use with attribution encouraged. All other rights reserved.
 
