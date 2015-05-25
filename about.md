@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Us
+title: About
 long-title: About Us
 feature-img: wedding_cake.png
 permalink: /about/
