@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
-long-title: About the Gillespies
+title: About Us
+long-title: About Us
+feature-img: wedding_cake.png
 permalink: /about/
 ---
 

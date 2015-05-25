@@ -2,7 +2,9 @@
 layout: default
 ---
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
-  <header style="background-image: url('{{ page.feature-img }}')">
+  <header style="background-image: url('/img/feature/{{ page.feature-img }}')">
+  </header>
+  <section class="post-content">
     <h1 class="title">
       {% if page.long-title %}
         {{ page.long-title }}
@@ -10,6 +12,6 @@ layout: default
         {{ page.title }}
       {% endif %}
     </h1>
-  </header>
-  <section class="post-content">{{ content }}</section>
+    {{ content }}
+  </section>
 </article>
