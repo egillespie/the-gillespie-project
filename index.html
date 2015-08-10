@@ -21,7 +21,7 @@ layout: default
         </h1>
         <p class="meta">
           {{ post.date | date: "%B %-d, %Y" }}
-          {% if post.author %} - {{ site.social[post.author].name }}{% endif %}
+          {% if post.author %} - {{ site.authors[post.author].name }}{% endif %}
         </p>
       </header>
       <div class="excerpt">

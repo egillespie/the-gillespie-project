@@ -16,8 +16,8 @@ Don't be surprised if you see something in here about our families or personal l
 
 Moving our joy of sharing to the web has been way overdue, but here we are. Poke around, hopefully you'll find something interesting or inspiring. Or maybe you can share some of your own ideas.  We like hearing from others too!
 
-{% include gravatar.html hash=site.social.erik.gravatar_hash %}
-<h4>About Erik {% include icons.html social=site.social.erik %}</h4>
+{% include gravatar.html hash=site.authors.erik.gravatar_hash %}
+<h4>About Erik {% include icons.html author=site.authors.erik %}</h4>
 
 Career-wise, I am split 80/20 between working at [Vertafore](http://www.vertafore.com) and my own
 small business, [Technical Rex](http://technicalrex.com). I'm a software engineer and do mostly web
@@ -26,7 +26,7 @@ startup: trying to make new products the world needs without a huge number of re
 disposal. It's a lot of fun! My other hobbies and interests include homebrewing, experimental
 cooking, movies, retro video games, reading, board gaming, and more board gaming.
 
-{% include gravatar.html hash=site.social.chris.gravatar_hash %}
-<h4>About Chris {% include icons.html social=site.social.chris %}</h4>
+{% include gravatar.html hash=site.authors.chris.gravatar_hash %}
+<h4>About Chris {% include icons.html author=site.authors.chris %}</h4>
 
 Whether it's reading one or creating one, Chris really likes story-telling. This makes her a great dungeon master! She's also into drawing and art and likes combining the drawing with the story-telling.  She admits that some of her other hobbies are somewhat neglected. She plays sports and the upright bass when she gets a free moment. By day, Chris' job doesn't translate well into her hobbies.  She works as a business analyst at Vertafore. Yep, we work at the same company. In fact, we often sit within ten feet of each other there! Chris has a software background, so she really likes working closely with developers. She likes working with people in general, too, and she strives to be well-rounded and proficient at anything her job demands of her.
