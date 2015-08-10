@@ -11,12 +11,14 @@
 {% endif %}
 
 {% if site.authors[page.author].twitter %}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{{ page.title | truncate: 70 }}" />
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | escape | truncate: 200 }}" />
 <meta name="twitter:site" content="@{{ site.authors[page.author].twitter }}" />
 <meta name="twitter:creator" content="@{{ site.authors[page.author].twitter }}" />
-{% endif %}
-<meta name="twitter:card" content="summary" />
 {% if page.preview-image %}
 <meta name="twitter:image" content="{{ page.preview-image | prepend: site.baseurl | prepend: site.url }}" />
+{% endif %}
 {% endif %}
 
 {% if page.preview-image %}
