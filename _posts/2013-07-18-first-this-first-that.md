@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First This, First That
-author: Erik Gillespie
+author: erik
 category: family
 tags: [kira, writing]
 permalink: /family/first-this-first-that.html

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Eight Months and Counting
-author: Erik Gillespie
+author: erik
 category: family
 tags: [kira, gencon]
 permalink: /family/eight-months-and-growing.html

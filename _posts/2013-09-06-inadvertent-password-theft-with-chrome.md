@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inadvertent Password Theft with Chrome
-author: Erik Gillespie
+author: erik
 category: software
 tags: []
 permalink: /software/inadvertent-password-theft-with-chrome.html

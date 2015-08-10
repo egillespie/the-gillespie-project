@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tennessee Honeymisu
-author: Erik Gillespie
+author: erik
 category: yum
 tags: [alcohol, dessert]
 permalink: /yum/tennessee-honeymisu.html

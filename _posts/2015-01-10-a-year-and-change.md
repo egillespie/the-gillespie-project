@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Year and Change
-author: Erik Gillespie
+author: erik
 category: family
 tags: [kira]
 permalink: /family/a-year-and-change.html

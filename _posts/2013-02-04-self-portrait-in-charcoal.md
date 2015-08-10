@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Self Portrait in Charcoal
-author: Erik Gillespie
+author: erik
 category: art
 tags: [2d, charcoal]
 permalink: /art/erik-self-portrait-in-charcoal.html

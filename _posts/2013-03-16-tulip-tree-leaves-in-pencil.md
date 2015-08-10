@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tulip Tree Leaves in Pencil
-author: Erik Gillespie
+author: erik
 category: art
 tags: [2d, pencil]
 permalink: /art/tulip-tree-leaves-in-pencil.html

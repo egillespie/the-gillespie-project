@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Two Months and Adorable
-author: Erik Gillespie
+author: erik
 category: family
 tags: [baby, kira]
 permalink: /family/two-months-and-adorable.html

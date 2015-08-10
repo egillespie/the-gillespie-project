@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spicy  Tequila
-author: Erik Gillespie
+author: erik
 category: yum
 tags: [alcohol]
 permalink: /yum/spicy-tequila.html

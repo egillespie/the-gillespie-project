@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1 + 1 = 3
-author: Erik Gillespie
+author: erik
 category: family
 tags: [baby, kira]
 permalink: /family/one-plus-one-equals-three.html

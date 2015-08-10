@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fruity Pebble Pie Crust
-author: Erik Gillespie
+author: erik
 category: yum
 tags: [dessert]
 permalink: /yum/fruity-pebble-pie-crust.html

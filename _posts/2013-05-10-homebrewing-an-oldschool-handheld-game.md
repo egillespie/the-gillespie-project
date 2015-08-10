@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Homebrewing an "Oldschool" Handheld Game
-author: Erik Gillespie
+author: erik
 category: software
 tags: [games]
 permalink: /software/homebrewing-an-oldschool-handheld-game.html

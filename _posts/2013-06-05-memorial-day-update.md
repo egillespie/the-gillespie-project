@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Memorial Day Update
-author: Erik Gillespie
+author: erik
 category: family
 tags: [kira, lan]
 permalink: /family/memorial-day-update.html

@@ -4,9 +4,6 @@
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme.description }}{% endif %}">
 	<meta content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=0" name="viewport">
 	<meta http-equiv="X-Frame-Options" content="sameorigin">
-	{% if page.image_src %}
-	<link rel="image_src" href="{{ page.image_src | prepend: site.baseurl | prepend: site.url }}" />
-	{% endif %}
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -41,6 +38,8 @@
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
 	{% endif %}
+
+	{% include social-meta.html %}
 
 	<!-- Google Analytics -->
 	{% if site.theme.google_analytics %}
