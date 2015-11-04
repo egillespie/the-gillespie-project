@@ -48,3 +48,15 @@ header {
     @extend %padding-regular;
   }
 }
+.center {
+    text-align: center;
+}
+.strong {
+    font-weight: bold;
+}
+.emphasis {
+    font-style: italic;
+}
+.pad-x-small {
+    padding: $padding-x-small;
+}
