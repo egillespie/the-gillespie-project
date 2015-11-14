@@ -17,7 +17,7 @@ excerpt: >
 
 Today is my last day at [Vertafore](http://www.vertafore.com). I'm both excited and terrified as hell.
 
-I started my business, [Technical Rex](http://technicalrex.com) in 2007 with the goal of building great software that the world needs (or just really, really wants). To start bootstrapping my efforts, I also did contract software development.
+I started my business, [Technical Rex](http://technicalrex.com), in 2007 with the goal of building great software that the world needs (or just really, really wants). To start bootstrapping my efforts, I also did contract software development.
 
 I got my contract with Vertafore in 2008 and they were fabulous enough to renew my contract for six years. I guess they liked me. It gets better though. Over that period of time I realized that being so fully dedicated to one business was making it difficult for me to build my own. Fortunately, Vertafore being the considerate company they are, hired me on as a part-time employee. This allowed me to spend one day each week wholly on my own business and the results have been great!
 
