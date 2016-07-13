@@ -72,7 +72,7 @@ dt {
 dd {
     margin-left: 2em;
 }
-p, ol, ul, dl, .math-display {
+p, .math-display {
   line-height: 1.5;
   margin-bottom: 1em;
 }
@@ -80,8 +80,15 @@ p, ol, ul, dl, .math-display {
   display: inline-block;
   width: 100%;
 }
-ol, ul {
-  list-style-position: outside;
+ol, ul, dl {
+  list-style-position: inside;
+  line-height: 1.5;
+  margin: 0 0 1em 1em;
+
+  ol, ul {
+    margin: 0.5em 1em;
+    list-style-type: lower-alpha;
+  }
 }
 hr {
   border: 0;
