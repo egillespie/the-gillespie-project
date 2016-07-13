@@ -16,7 +16,7 @@ Chris and I have been experimenting with a couple different diets recently, with
 
 Oh, and before anyone asks about Kira, don't worry. We didn't hold her to any of this and she hasn't inadvertently lost any weight (I've been weighing her).
 
-## Attempt 1: Starch and Pop
+## Attempt #1: Starch and Pop
 
 In April, I proposed that we try out a diet for four weeks. Here are the basic principles:
 
@@ -40,13 +40,17 @@ Unfortunately, neither of us lost more than a pound or two on this diet. I feel 
 
 Chris was traveling a lot during this month and ended up eating at restaurants a lot. She admitted that she didn't stick to the diet very well on these trips. For myself, my guess is that because I continued drinking [Soylent][2] &mdash;which does not have potatoes or wheat in it&mdash; for breakfast and lunch and wasn't drinking much pop to begin with, I wasn't really removing much from my diet except at dinner.
 
-## Attempt 2: Slow-Carb
+## Attempt #2: The Slow-Carb Diet
 
 We took a break in May and listened to *[The 4-Hour Body][3]* by Tim Ferriss. I am a big fan of Tim because he takes a very methodical approach to figure out what works, what doesn't, and what's the minimum amount of effort you can expend to get the best results. He applies his techniques to way more than fitness, by the way.
 
 I took notes on the book's chapters about weight loss and created a list of lifestyle changes we would need to apply to our daily routine (the Slow-Carb Diet, as Tim calls it, is more than just changing the food you eat).
 
-Here's the list:
+Basically, the goal of this diet is to control your body's glycemic response and insulin production to discourage fat storage and ultimately trigger your body into burning fat.
+
+#### Daily Checklist
+
+Here's what we aimed to do on every day except the cheat days:
 
 1. Drink one glass of ice water immediately upon waking.
 2. Take a cold (56&deg;F) shower (Erik only).
@@ -67,7 +71,9 @@ Here's the list:
 8. Use a cold compress for 30 minutes before bed.
 9. Take 500mg of magnesium before bed.
 
-And here are the   basic rules of the Slow-Carb diet:
+#### Slow-Carb Diet
+
+Here's the gist of the Slow-Carb Diet. The book explains why each of these items is on the list. There are also a number of recommendations that we left off.
 
 1. No white carbs (starches like bread, rice, cereal, potatoes, and pasta).
 2. Eat the same handful of meals over and over, making sure each meal contains:
@@ -78,13 +84,28 @@ And here are the   basic rules of the Slow-Carb diet:
 4. No fruit (the sweet stuff, like apples, berries, oranges, etc.).
 5. Enjoy a cheat day each week. Eat whatever the hell you want.
 
+Here are pics of some sample meals. Normally I make a protein shake during the week instead of cooking breakfast, though.
 
+**Pro-Tip:** Cold brewed coffee blended with ice and chocolate protein powder is AMAZING.
 
 <div class="gala">
   <img src="/img/slowcarb/breakfast.jpg" alt="Breakfast: Eggs, sausage, and fried beans"/>
   <img src="/img/slowcarb/lunch.jpg" alt="Lunch: Pollo con chorizo"/>
   <img src="/img/slowcarb/dinner.jpg" alt="Dinner: Sausage and cucumber salad"/>
 </div>
+
+#### Winner, Winner
+
+So far this diet really seems to work! I've dropped below 200 pounds for the first time since college (15 years!) and Chris has steadily veered toward the bottom of her typical weight variation. We're going to keep it up for another 2-4 weeks to see if she continues to lose weight.
+
+Also, I've got to say that the magnesium is pretty good at helping me sleep deeper, faster. I immediately went from not dreaming (or not remembering my dreams) to having vivid dreams every night.
+
+Also also, make sure you drink plenty of water.
+
+## Want to Learn More?
+
+If you want all the details about the why's and how's of this diet, just ask me a question about them! I enjoy learning and talking about nutrition and would love to exchange thoughts.
+
 
 
 [1]: http://www.withings.com/us/en/products/body
