@@ -5,7 +5,8 @@ author: erik
 category: yum
 tags: [diet]
 permalink: /yum/experiments-in-dieting.html
-preview-image: /img/orange-you-happy-at-vertafore.jpg
+preview-image: /img/slowcarb/lunch.jpg
+feature-img: /img/slowcarb/food-banner.jpg
 excerpt: >
   Chris and I have been experimenting with a couple different diets recently,
   with fairly satisfying results. If you're curious about what we've tried, keep
@@ -35,6 +36,10 @@ We used our much-neglected [Withings Body Scale][1] to weigh ourselves periodica
 We started cooking a much wider variety of meals during this diet. I also learned that turnips are a very flavorful, low-carb alternative to potatoes!
 
 #### Bad News
+
+<div class="gala">
+  <img src="/img/slowcarb/erik-april-weight.jpg" alt="My poor digestive system"/>
+</div>
 
 Unfortunately, neither of us lost more than a pound or two on this diet. I feel like the diet itself is sound, we just had some lifestyle changes in April that were working against us.
 
@@ -97,6 +102,10 @@ Here are pics of some sample meals. Normally I make a protein shake during the w
 #### Winner, Winner
 
 So far this diet really seems to work! I've dropped below 200 pounds for the first time since college (15 years!) and Chris has steadily veered toward the bottom of her typical weight variation. We're going to keep it up for another 2-4 weeks to see if she continues to lose weight.
+
+<div class="gala">
+  <img src="/img/slowcarb/erik-july-weight.jpg" alt="That looks like a downward trend!"/>
+</div>
 
 Also, I've got to say that the magnesium is pretty good at helping me sleep deeper, faster. I immediately went from not dreaming (or not remembering my dreams) to having vivid dreams every night.
 
