@@ -29,6 +29,6 @@ Chris and I have been saving up and we're confident I can take a year to build a
 
 I'm pumped! I'm also super grateful for all of the help my family, friends, and Vertafore as a whole have given me to get me to this point.
 
-As I venture down this new path, be sure to follow my usual spamming points. Namely, [Twitter](https://twitter.com/eriklgillespie), [Facebook](https://www.facebook.com/erik.gillespie.79), and the [Technical Rex Blog](http://technicalrex.com).
+As I venture down this new path, be sure to follow my usual spamming points. Namely, [Twitter](https://twitter.com/eriklgillespie), [Facebook](https://www.facebook.com/eriklgillespie), and the [Technical Rex Blog](http://technicalrex.com).
 
 And of course, wish me luck!
