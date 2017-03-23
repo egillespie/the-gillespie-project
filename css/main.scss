@@ -10,11 +10,9 @@
 @import 'base/utility';
 
 // Posts
-@import 'layouts/page';
 @import 'layouts/posts';
 @import 'layouts/index';
-@import 'layouts/social';
-@import 'layouts/_about';
+@import 'layouts/page';
 
 // Partials
 @import 'includes/header';

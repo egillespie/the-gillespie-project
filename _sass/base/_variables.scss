@@ -1,5 +1,6 @@
 // Typography
-$font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-size: 1.25em;
 $font-size-small: 0.8em;
 
@@ -15,7 +16,7 @@ $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
 $text-color: #383838;
-$link-color: #92b1d0;
+$link-color: #b02e2e;
 $selection-color: #d4d4d4; // visible when highlighting text
 
 // Header colours
