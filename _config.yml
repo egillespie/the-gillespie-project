@@ -3,23 +3,47 @@ baseurl: ""
 url: "http://gillespieproject.com"
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_settings:
   # Meta
   title: The Gillespie Project
-  logo:
-  # used by search engines
+  avatar: icons/favicon.png
   description: The personal blog of Erik and Chris Gillespie
 
   # Header and footer text
   header_text:
-  header_text_feature_image: wedding_jump.png
+  header_text_feature_image: img/feature/wedding_jump.png
   footer_text: >
-    Copyright &copy; 2015 Erik and Chris Gillespie. Non-commercial re-use with attribution encouraged. All other rights reserved.
+    Copyright &copy; 2017 Erik and Chris Gillespie.
+    <br>Non-commercial re-use with attribution encouraged.
+    <br>All other rights reserved.
+
+  # Icons
+  rss: false
+  email_address: # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github:
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter:
+  wordpress:
+  youtube:
 
   # Scripts
   google_analytics: "UA-62275452-1"
   disqus_shortname:
-  katex: false
+  muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
+  katex: false # Enable if using math markup
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -31,54 +55,10 @@ theme:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
-authors:
-  erik:
-    name: Erik Gillespie
-    # Icons
-    email_address: erik.gillespie@gmail.com
-    behance:
-    bitbucket:
-    dribbble:
-    facebook: eriklgillespie
-    flickr:
-    github: egillespie
-    google_plus: +ErikGillespie
-    gravatar_hash: 77e0d1571ed8fd1f9249a01e7569db05
-    instagram:
-    linkedin: https://www.linkedin.com/in/eriklgillespie
-    pinterest: erikgillespie
-    reddit: elgillespie
-    soundcloud:
-    stack_exchange: http://stackoverflow.com/users/1696044/erik-gillespie
-    steam: 76561198029980002
-    tumblr: elgillespie
-    twitter: eriklgillespie
-    wordpress:
-    youtube: ErikGillespie
-  chris:
-    name: Chris Gillespie
-    # Icons
-    email_address: chris.ann.gillespie@gmail.com
-    behance:
-    bitbucket:
-    dribbble:
-    facebook:
-    flickr:
-    github:
-    google_plus: 110931175351252672881
-    gravatar_hash: b67eed77f3245ea8c6023dfd6ae3cec2
-    instagram:
-    linkedin: https://www.linkedin.com/pub/chris-barott/12/9b0/343
-    pinterest:
-    reddit:
-    soundcloud:
-    stack_exchange:
-    steam: 76561198014833542
-    tumblr:
-    twitter: reddragn
-    wordpress:
-    youtube:
+  # Post navigation
+  post_navigation: false
 
 # PAGINATION
 paginate: 5
@@ -86,13 +66,8 @@ paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
-
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
+gems: [jekyll-paginate]

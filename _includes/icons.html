@@ -1,153 +1,159 @@
-<div class="social-user-bar">
-  {% if include.author.email_address %}
-  <span class="social-user-link">
-    <a target="_blank" href="mailto:{{ include.author.email_address }}" title="{{ include.author.str_email }} {{ include.author.name }}">
-      <i class="fa fa-fw fa-envelope"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.rss %}
+<li>
+	<a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" title="{{ site.theme_settings.str_rss_follow }}">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.behance %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://www.behance.net/{{ include.author.behance }}" title="{{ site.theme.str_follow_on }} Behance">
-      <i class="fa fa-fw fa-behance"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.email_address %}
+<li>
+	<a href="mailto:{{ site.theme_settings.email_address }}" title="{{ site.theme_settings.str_email }}">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.bitbucket %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://bitbucket.org/{{ include.author.bitbucket }}" title="{{ site.theme.str_follow_on }} Bitbucket">
-      <i class="fa fa-fw fa-bitbucket"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.behance %}
+<li>
+	<a href="https://www.behance.net/{{ site.theme_settings.behance }}" title="{{ site.theme_settings.str_follow_on }} Behance">
+		<i class="fa fa-fw fa-behance"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.dribbble %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://dribbble.com/{{ include.author.dribbble }}" title="{{ site.theme.str_follow_on }} Dribbble">
-      <i class="fa fa-fw fa-dribbble"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.bitbucket %}
+<li>
+	<a href="https://bitbucket.org/{{ site.theme_settings.bitbucket }}" title="{{ site.theme_settings.str_follow_on }} Bitbucket">
+		<i class="fa fa-fw fa-bitbucket"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.facebook %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://www.facebook.com/{{ include.author.facebook }}" title="{{ site.theme.str_follow_on }} Facebook">
-      <i class="fa fa-fw fa-facebook"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.dribbble %}
+<li>
+	<a href="https://dribbble.com/{{ site.theme_settings.dribbble }}" title="{{ site.theme_settings.str_follow_on }} Dribbble">
+		<i class="fa fa-fw fa-dribbble"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.flickr %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://www.flickr.com/photos/{{ include.author.flickr }}" title="{{ site.theme.str_follow_on }} Flickr">
-      <i class="fa fa-fw fa-flickr"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.facebook %}
+<li>
+	<a href="https://www.facebook.com/{{ site.theme_settings.facebook }}" title="{{ site.theme_settings.str_follow_on }} Facebook">
+		<i class="fa fa-fw fa-facebook"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.github %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://github.com/{{ include.author.github }}" title="{{ site.theme.str_follow_on }} GitHub">
-      <i class="fa fa-fw fa-github"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.flickr %}
+<li>
+	<a href="https://www.flickr.com/photos/{{ site.theme_settings.flickr }}" title="{{ site.theme_settings.str_follow_on }} Flickr">
+		<i class="fa fa-fw fa-flickr"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.google_plus %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://plus.google.com/{{ include.author.google_plus }}" title="{{ site.theme.str_follow_on }} Google+">
-      <i class="fa fa-fw fa-google-plus"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.github %}
+<li>
+	<a href="https://github.com/{{ site.theme_settings.github }}" title="{{ site.theme_settings.str_follow_on }} GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.instagram %}
-  <span class="social-user-link">
-    <a target="_blank" href="http://instagram.com/{{ include.author.instagram }}" title="{{ site.theme.str_follow_on }} Instagram">
-      <i class="fa fa-fw fa-instagram"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.google_plus %}
+<li>
+	<a href="https://plus.google.com/{{ site.theme_settings.google_plus }}" title="{{ site.theme_settings.str_follow_on }} Google+">
+		<i class="fa fa-fw fa-google-plus"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.linkedin %}
-  <span class="social-user-link">
-    <a target="_blank" href="{{ include.author.linkedin }}" title="{{ site.theme.str_follow_on }} LinkedIn">
-      <i class="fa fa-fw fa-linkedin"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.instagram %}
+<li>
+	<a href="http://instagram.com/{{ site.theme_settings.instagram }}" title="{{ site.theme_settings.str_follow_on }} Instagram">
+		<i class="fa fa-fw fa-instagram"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.pinterest %}
-  <span class="social-user-link">
-    <a target="_blank" href="http://www.pinterest.com/{{ include.author.pinterest }}" title="{{ site.theme.str_follow_on }} Pinterest">
-      <i class="fa fa-fw fa-pinterest"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.linkedin %}
+<li>
+	<a href="{{ site.theme_settings.linkedin }}" title="{{ site.theme_settings.str_follow_on }} LinkedIn">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.reddit %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://www.reddit.com/user/{{ include.author.reddit }}" title="{{ site.theme.str_follow_on }} Reddit">
-      <i class="fa fa-fw fa-reddit"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.pinterest %}
+<li>
+	<a href="http://www.pinterest.com/{{ site.theme_settings.pinterest }}" title="{{ site.theme_settings.str_follow_on }} Pinterest">
+		<i class="fa fa-fw fa-pinterest"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.soundcloud %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://soundcloud.com/{{ include.author.soundcloud }}" title="{{ site.theme.str_follow_on }} SoundCloud">
-      <i class="fa fa-fw fa-soundcloud"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.reddit %}
+<li>
+	<a href="https://www.reddit.com/user/{{ site.theme_settings.reddit }}" title="{{ site.theme_settings.str_follow_on }} Reddit">
+		<i class="fa fa-fw fa-reddit"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.stack_exchange %}
-  <span class="social-user-link">
-    <a target="_blank" href="{{ include.author.stack_exchange }}" title="{{ site.theme.str_follow_on }} Stack Exchange">
-      <i class="fa fa-fw fa-stack-exchange"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.soundcloud %}
+<li>
+	<a href="https://soundcloud.com/{{ site.theme_settings.soundcloud }}" title="{{ site.theme_settings.str_follow_on }} SoundCloud">
+		<i class="fa fa-fw fa-soundcloud"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.steam %}
-  <span class="social-user-link">
-    <a target="_blank" href="http://steamcommunity.com/profiles/{{ include.author.steam }}" title="{{ site.theme.str_follow_on }} Steam">
-      <i class="fa fa-fw fa-steam"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.stack_exchange %}
+<li>
+	<a href="{{ site.theme_settings.stack_exchange }}" title="{{ site.theme_settings.str_follow_on }} Stack Exchange">
+		<i class="fa fa-fw fa-stack-exchange"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.tumblr %}
-  <span class="social-user-link">
-    <a target="_blank" href="http://{{ include.author.tumblr }}.tumblr.com/" title="{{ site.theme.str_follow_on }} Tumblr">
-      <i class="fa fa-fw fa-tumblr"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.steam %}
+<li>
+	<a href="http://steamcommunity.com/id/{{ site.theme_settings.steam }}" title="{{ site.theme_settings.str_follow_on }} Steam">
+		<i class="fa fa-fw fa-steam"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.twitter %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://twitter.com/{{ include.author.twitter }}" title="{{ site.theme.str_follow_on }} Twitter">
-      <i class="fa fa-fw fa-twitter"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.tumblr %}
+<li>
+	<a href="http://{{ site.theme_settings.tumblr }}.tumblr.com/" title="{{ site.theme_settings.str_follow_on }} Tumblr">
+		<i class="fa fa-fw fa-tumblr"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.wordpress %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://{{ include.author.wordpress }}.wordpress.com/" title="{{ site.theme.str_follow_on }} WordPress">
-      <i class="fa fa-fw fa-wordpress"></i>
-    </a>
-  </span>
-  {% endif %}
+{% if site.theme_settings.twitter %}
+<li>
+	<a href="https://twitter.com/{{ site.theme_settings.twitter }}" title="{{ site.theme_settings.str_follow_on }} Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+{% endif %}
 
-  {% if include.author.youtube %}
-  <span class="social-user-link">
-    <a target="_blank" href="https://www.youtube.com/c/{{ include.author.youtube }}" title="{{ site.theme.str_follow_on }} YouTube">
-      <i class="fa fa-fw fa-youtube"></i>
-    </a>
-  </span>
-  {% endif %}
-</div>
+{% if site.theme_settings.wordpress %}
+<li>
+	<a href="https://{{ site.theme_settings.wordpress }}.wordpress.com/" title="{{ site.theme_settings.str_follow_on }} WordPress">
+		<i class="fa fa-fw fa-wordpress"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.youtube %}
+<li>
+	<a href="https://www.youtube.com/user/{{ site.theme_settings.youtube }}" title="{{ site.theme_settings.str_follow_on }} YouTube">
+		<i class="fa fa-fw fa-youtube"></i>
+	</a>
+</li>
+{% endif %}
